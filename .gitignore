@@ -1,0 +1,20 @@
+# Exclude object files in all directories
+**/*.o
+
+# Exclude compiled binaries
+*.exe
+*.out
+*.a
+*.so
+
+# Exclude temporary files
+*.log
+*.tmp
+*.swp
+*~
+
+# Exclude build directories (if any)
+build/
+cmake-build-debug/
+
+.vscode
